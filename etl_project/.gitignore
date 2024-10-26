@@ -1,0 +1,10 @@
+*.pyc
+__pycache__/
+.env
+airflow.cfg
+unittests.cfg
+webserver_config.py
+*.log
+docker-compose.override.yml
+.vscode/
+logs/*
