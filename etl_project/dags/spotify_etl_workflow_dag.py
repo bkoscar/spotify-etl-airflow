@@ -17,7 +17,7 @@ with DAG(
     dag_id="spotify_etl_dag",
     default_args=default_args,
     description="A DAG for running the Spotify ETL process",
-    schedule_interval='*/5 * * * *',  # Runs at 04:40 PM every day
+    schedule_interval='58 11 * * *',  # Runs at 11:58 PM every day
     catchup=False,  
     max_active_runs=1,  
     tags=["spotify", "etl"],

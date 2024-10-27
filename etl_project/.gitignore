@@ -8,3 +8,4 @@ webserver_config.py
 docker-compose.override.yml
 .vscode/
 logs/*
+.DS_Store
