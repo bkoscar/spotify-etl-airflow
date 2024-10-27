@@ -27,7 +27,7 @@ This project implements an ETL (Extract, Transform, Load) pipeline using Apache 
 1. **Clone the repository**:
     ```sh
     git clone https://github.com/bkoscar/spotify-etl-airflow.git
-    cd spotify-etl-airflow
+    cd spotify-etl-airflow/etl_project
     ```
 
 2. **Create and configure the `.env` file**:
