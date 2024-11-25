@@ -8,7 +8,7 @@ This project configuration, including passwords and documentation, is set up for
 This project implements an ETL (Extract, Transform, Load) pipeline using Apache Airflow to extract data from the Spotify API, transform it, and load it into a PostgreSQL database. The pipeline is containerized using Docker, ensuring a consistent and reproducible environment. The ETL runs at 11:58 PM every day and extracts the music you listened to during the day.
 
 ### Pipeline Diagram
-![Airflow Pipeline](airflow_pipeline.png)
+![Airflow Pipeline](img/airflow_pipeline.png)
 
 ### Key Features
 - **Data Extraction**: Fetches data from the Spotify API.
@@ -56,7 +56,7 @@ This project implements an ETL (Extract, Transform, Load) pipeline using Apache 
     - Open your browser and go to `http://localhost:8080`
     - Use the default credentials to log in (username: `airflow`, password: `airflow`)
 
-![Example of the interface](web.png)
+![Example of the interface](img/web.png)
 
 6. **Trigger the DAG to create the table**:
     - In the Airflow web interface, manually trigger the DAG responsible for creating the table in the PostgreSQL database.
